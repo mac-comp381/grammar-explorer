@@ -127,7 +127,7 @@ class Choice extends GrammarNode {
 
             let newTreeNodeContainer;
             if(this.replaceTreeNode) {
-              newTreeNodeContainer = elem("div");
+              newTreeNodeContainer = elem("div", "children");
               treeParent.replaceWith(newTreeNodeContainer);
             } else {
               newTreeNodeContainer = treeParent.children('.children');
