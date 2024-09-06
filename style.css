@@ -224,6 +224,7 @@ select.header-item {
 .tree-node {
     padding-left: 1em;
     white-space: nowrap;
+    border-left: 1px solid transparent;
 }
 
 .tree-node .nonterminal {
@@ -240,6 +241,10 @@ select.header-item {
 .tree-node .nonterminal:before,
 .tree-node .nonterminal:after {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.tree-node:hover {
+    border-left-color: #ccc;
 }
 
 .tree-node .nonterminal:hover {
