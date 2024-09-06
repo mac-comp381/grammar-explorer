@@ -10,7 +10,6 @@ let g = new Grammar({
     }
   ],
   startSymbols: [
-    'keywords_arguments',
     'file_input',
     'interactive_input',
     'statement',
